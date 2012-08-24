@@ -1,5 +1,5 @@
 {
-    "hash": "0aa0dc194424714392a354fda41b7c4e",
+    "hash": "77ddd624d4dcd8ab1886301cbd014527",
     "packages": [
         {
             "package": "doctrine/common",
@@ -24,6 +24,42 @@
             "version": "2.3.x-dev",
             "source-reference": "971865f271771a3b06c474dfea9e91f023837cce",
             "commit-date": "1344977483"
+        },
+        {
+            "package": "friendsofsymfony/comment-bundle",
+            "version": "dev-master",
+            "source-reference": "2dccbb67a0a0b96b0b40db75f677ab9dbdc35c41",
+            "commit-date": "1345765128"
+        },
+        {
+            "package": "friendsofsymfony/rest",
+            "version": "dev-master",
+            "alias-pretty-version": "0.7.x-dev",
+            "alias-version": "0.7.9999999.9999999-dev"
+        },
+        {
+            "package": "friendsofsymfony/rest",
+            "version": "dev-master",
+            "source-reference": "5ea703f5a3f5c7110cadeccb91b212c0eb7ea2d0",
+            "commit-date": "1339701893"
+        },
+        {
+            "package": "friendsofsymfony/rest-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "0.8.x-dev",
+            "alias-version": "0.8.9999999.9999999-dev"
+        },
+        {
+            "package": "friendsofsymfony/rest-bundle",
+            "version": "dev-master",
+            "source-reference": "d3f15d6c913d25fe5b29185e6e6be510afd09c73",
+            "commit-date": "1345237156"
+        },
+        {
+            "package": "friendsofsymfony/user-bundle",
+            "version": "dev-master",
+            "source-reference": "5aa50962a4b67e380fe7912cb06defdf448c3f26",
+            "commit-date": "1345421669"
         },
         {
             "package": "jms/aop-bundle",
@@ -62,6 +98,18 @@
             "commit-date": "1345631424"
         },
         {
+            "package": "jms/serializer-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "0.9.x-dev",
+            "alias-version": "0.9.9999999.9999999-dev"
+        },
+        {
+            "package": "jms/serializer-bundle",
+            "version": "dev-master",
+            "source-reference": "1f308a587742246e87e580290f3bae23073d1d70",
+            "commit-date": "1343641450"
+        },
+        {
             "package": "kriswallsmith/assetic",
             "version": "dev-master",
             "alias-pretty-version": "1.1.x-dev",
@@ -80,8 +128,20 @@
         {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "bd98b5fb0e4a5dddb4f7acd2e11f28c4cd7eacee",
-            "commit-date": "1345139690"
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "sensio/distribution-bundle",
+            "version": "dev-master",
+            "source-reference": "7fb1ce437667560608c9592ee7cf6d45b78eee81",
+            "commit-date": "1345816476"
+        },
+        {
+            "package": "sensio/framework-extra-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "sensio/framework-extra-bundle",
@@ -116,12 +176,6 @@
         {
             "package": "symfony/monolog-bundle",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/monolog-bundle",
-            "version": "dev-master",
             "source-reference": "10c3d6fcda8d73eb1a35860eeea2933d1ab2c1f6",
             "commit-date": "1345557954"
         },
@@ -140,8 +194,8 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "602a45880f1e95d7dc69cba907a5692910eba44f",
-            "commit-date": "1345796427"
+            "source-reference": "a1e6cfbe15130ab94e5dfbf6bbc4891e55f4e827",
+            "commit-date": "1345819685"
         },
         {
             "package": "twig/extensions",
@@ -158,20 +212,8 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "37e7ba7575d19f157e4bbe7444e141ad953e345a",
-            "commit-date": "1345810243"
-        },
-        {
-            "package": "unknownbliss/music-inventory-bundle",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.0.x-dev",
-            "alias-version": "1.0.0.9999999-dev"
-        },
-        {
-            "package": "unknownbliss/music-inventory-bundle",
-            "version": "dev-master",
-            "source-reference": "b399d575262a367ef470667979f88e9f27b980d4",
-            "commit-date": "1345810728"
+            "source-reference": "ddc154fe4c6663e36de6c33fc38167e791f4adda",
+            "commit-date": "1345816246"
         }
     ],
     "packages-dev": null,
@@ -188,6 +230,7 @@
         "sensio/distribution-bundle": 20,
         "sensio/framework-extra-bundle": 20,
         "sensio/generator-bundle": 20,
-        "unknownbliss/music-inventory-bundle": 20
+        "friendsofsymfony/comment-bundle": 20,
+        "friendsofsymfony/user-bundle": 20
     }
 }
